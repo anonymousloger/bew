@@ -1,0 +1,74 @@
+html{
+	font-size: 16px;
+  background-color: #E7EEE7;
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+section{
+  background-color: #E7EEE7;
+}
+
+.hero{
+	height: 640px;
+	background-image: url(../img/heroimage.png);
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text{
+	margin-top: 210px;
+}
+
+ .input-group>.form-control:not(:last-child){
+    background-color: transparent;
+    border: 1px solid #6c757d;
+ }
+
+ .nav-link{
+  font-weight: bold;
+  font-size: 15px;
+ }
+
+ .des1{
+  width: 1750px;
+  height: 386px;
+  top: -10px;
+  left: -40px;
+ }
+
+
+ .des2{
+  width: 1750px;
+  height: 386px;
+  bottom: 0px;
+  left: -20px;
+  transform: rotateX(180deg);
+ }
+
+
+ .des3{
+  width: 1750px;
+  height: 386px;
+  bottom: 0px;
+  right: -40px;
+  transform: scaleX(-1) rotateX(180deg);
+  filter: FlipH;
+ }
+
+ .ml-7{
+  margin-left: -25px;
+ }
+
+  .mt-7{
+  margin-top: 30px;
+ }

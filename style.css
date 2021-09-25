@@ -1,0 +1,32 @@
+html {
+    font-size: 16px;
+    background-color: #E7EEE7;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero {
+    height: 90vh;
+    background-image: url(./heroimage.png);
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    margin-top: 33vh;
+}
+
+.input-group>.form-control:not(:last-child) {
+    background-color: transparent;
+    border: 1px solid #6c757d;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 15px;
+}
